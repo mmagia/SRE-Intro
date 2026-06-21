@@ -16,7 +16,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: payments
-          image: ghcr.io/mmagia/quickticket-payments:f1afc7d9d092f319fe06e9b24c40a7696a2c136e
+          image: ghcr.io/mmagia/quickticket-payments:1211a725d68379417e63e3200b6d6ec0c8cfdff2
           imagePullPolicy: Always
           ports:
             - containerPort: 8082
